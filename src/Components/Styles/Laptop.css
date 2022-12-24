@@ -1,0 +1,59 @@
+@media screen and (min-width:1200px ){
+  /* Home Content */
+  .home-content{
+      margin: 6rem;
+    }
+    .home-about{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+     
+    }
+  .home-about-img img{
+      flex-wrap: wrap;
+      height: 22rem;
+      border-radius: 20px;
+    }
+    .home-aboutdes h3{
+      font-size: 3rem;
+      font-family: 'Kaushan Script', cursive;
+    }
+
+    /* Services */
+    
+.service-content{
+margin: 7rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.service-content1 h3{
+font-size: 3rem;
+font-family:'Kaushan Script', cursive;
+}
+.service-content-title {
+padding: 1.5rem;
+
+}
+.service-content-title p{
+font-size: 1.2rem;
+
+}
+.service-content-title ul p{
+
+display: list-item;
+margin-left: 40px;
+}
+.service-content-img img{
+margin-top: 4rem;
+margin-left: 2rem;
+flex-wrap: wrap;
+height: 23rem;
+border-radius: 20px;
+}
+.service-content-img2 img{
+flex-wrap: wrap;
+height: 25rem;
+border-radius: 5rem 0 0;
+}
+}
